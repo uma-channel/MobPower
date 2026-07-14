@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "monster_killed": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "#mp:monsters"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "mp:on_kill"
+  }
+}
